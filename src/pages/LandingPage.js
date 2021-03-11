@@ -3,6 +3,7 @@ import Header from "elements/Header";
 import Hero from "elements/Hero";
 import MostPicked from "elements/MostPicked";
 import Categories from 'elements/Categories'
+import Testimony from 'elements/Testimony'
 
 import landingPage from "json-schema/landingPage.json";
 
@@ -34,6 +35,7 @@ export default class LandingPage extends Component {
           refMostPicked={this.refMostPicked}
         ></MostPicked>
         <Categories data={landingPage.categories}/>
+        <Testimony data={landingPage.testimonial}/>
       </>
     );
   }

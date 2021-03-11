@@ -6,6 +6,7 @@
  * 
  */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -215,4 +216,10 @@ section {
     object-fit: contain;
     height: 100%;
     width: 100%;
+}
+
+.testimonial-hero, .testimonial-hero img {
+    width: 365px;
+    height: 500px;
+    
 }
